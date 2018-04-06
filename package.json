@@ -1,0 +1,37 @@
+{
+  "name": "thebatcommand",
+  "version": "1.0.0",
+  "description": "The awesomest slash command ever.",
+  "main": "command.js",
+  "scripts": {
+    "start": "node command.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/illisan//api-integrations.git"
+  },
+  "keywords": [
+    "slack",
+    "slash command"
+  ],
+  "author": "D.E. Goodman-Wilson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DEGoodmanWilson/easy-peasy-slash-command-app/issues"
+  },
+  "homepage": "https://github.com/DEGoodmanWilson/easy-peasy-slash-command-app#readme",
+  "engines": {
+    "node": "5.1.1"
+  },
+  "dependencies": {
+    "@slack/client": "^4.1.0",
+    "body-parser": "^1.18.2",
+    "botkit": "0.0.5",
+    "botkit-storage-mongo": "^1.0.2",
+    "express": "^4.16.3",
+    "localtunnel": "^1.9.0",
+    "mongodb": "^1.4.39",
+    "request": "^2.85.0"
+  }
+}
